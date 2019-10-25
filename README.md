@@ -57,7 +57,7 @@ E.g.: `python ./app.py -l <location>/<something>.yml -d <localtion>/<something>.
 * `-l` - Location of the file to be parsed (required)
 * `-d` - Destination of the file with the file name after parsing (optional)
 * `-t` - Whether elements get a data type attribute (defaulting to True. E.g.: `<element type="str">`)
-* `-s` - Whether the output should be on the screen (defaulting to True)
+* `-s` - Whether the output should be on the screen (defaulting to False)
 
 You can run the result only on the screen or just destination or both
 

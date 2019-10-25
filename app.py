@@ -37,8 +37,8 @@ if __name__ == '__main__':
     parser.add_argument('-t', dest='attr_type', type=str2bool,
                         help="Whether elements get a data type attribute.", default=True)
     parser.add_argument('-s', dest='screen', type=str2bool,
-                        help="Ouput the result in the stdout. If this is passed in the console, the destination is mandatory",
-                        default=True)
+                        help="Output the result in the stdout. If this is passed in the console, the destination is mandatory",
+                        default=False)
 
     args = parser.parse_args()
 
