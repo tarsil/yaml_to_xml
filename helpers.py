@@ -22,7 +22,7 @@ def get_data(file_path):
 
 def get_xml_data(location, attr_type):
     """
-    Get the data and parses to XML
+    Gets the data and parses to XML
     :param location: location of the file
     :return: xml str
     """
@@ -33,7 +33,7 @@ def get_xml_data(location, attr_type):
 
 def validate_yml(value):
     """
-    Validates if teh file is in YAML or YML and it's a string
+    Validates if the file is in YAML or YML and it's a string
     :param value: string location of the file
     :return: value
     """
@@ -46,7 +46,7 @@ def validate_yml(value):
 
 def validate_xml(value):
     """
-    Validates if teh file is in YAML or YML and it's a string
+    Validates if the file is in YAML or YML and it's a string
     :param value: string location of the file
     :return: value
     """
